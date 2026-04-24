@@ -1,4 +1,5 @@
-Mood-Based Music Recommendation System
+Mood-Based Music Recommendation System (In progress)
+
 This project is a full-stack application that dynamically recommends music based on a user’s biometric state and listening behavior. It simulates integration with fitness data (such as heart rate and activity level) to infer a user’s mood, then uses a custom recommendation engine to generate personalized playlists.
 
 The system is designed with scalability in mind, starting with a rule-based algorithm and evolving toward adaptive, data-driven recommendations. It includes a modular backend for processing user data and generating recommendations, along with a frontend interface for user interaction and playlist visualization.
