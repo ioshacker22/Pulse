@@ -22,12 +22,22 @@ namespace upgrade{
     }
 
     void User::displayHistory() const{
+        if(m_history.empty()){
+           std::cout << "No history yet" << std::endl;
+           return;
+        }
+
         for(const auto& song : m_history){
            song.display();
         }
     }
 
     void User::displayFavourites() const{
+        if(m_favourite.empty()){
+           std::cout << "NO Favourites yet" << std::endl;
+           return;
+        }
+
         for(const auto& song : m_favourite){
             song.display();
         }
