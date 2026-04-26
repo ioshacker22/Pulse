@@ -28,6 +28,8 @@ namespace upgrade{
         void addToHistory(const Song& song); //adds a song to the history
         void displayHistory() const; // loops through history and displays song
         void displayFavourites() const;  // loops through m_favourite and displays song
+        const std::vector<Song>& getHistory() const; //returns hostory
+        const std::vector<Song>& getFavourites() const;  //returns  favoourites
 
 
     };

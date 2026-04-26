@@ -42,4 +42,12 @@ namespace upgrade{
             song.display();
         }
     }
+
+    const std::vector<Song>& User::getHistory() const{
+        return m_history;
+    }
+
+    const std::vector<Song>& User::getFavourites() const{
+        return m_favourite; 
+    }
 }
